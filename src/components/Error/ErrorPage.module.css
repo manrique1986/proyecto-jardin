@@ -1,0 +1,75 @@
+.errorPage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.errorImage {
+  margin: 100px 0 50px 0;
+}
+
+.errorText {
+  color: #c4c4c4;
+  font-weight: 400;
+}
+
+.errorTitle {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.errorP {
+  text-align: center;
+}
+
+.errorBtn {
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  background-color: #bbc2ff;
+  border: 1px solid #bbc2ff;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+
+  transition: all 300ms ease;
+}
+
+.errorBtn:hover {
+  background-color: #a5abde;
+  border: 1px solid #a5abde;
+}
+
+.errorOndas {
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  width: 100%;
+  height: 225px;
+  background-image: url("../../assets/navbar/ondas.png");
+  background-position: center;
+  background-size: cover;
+}
