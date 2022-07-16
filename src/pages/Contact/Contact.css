@@ -1,51 +1,54 @@
+.tituloContac {
+  height: 35px;
+  width: 123px;
+  border-radius: nullpx;
+  color: #f57e33;
+  margin-bottom: 15px;
+  
+}
 
-.tituloContac{
-    color: #FFB688;
-    margin: 35px;
-
-
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px;
+  height: 469px;
+  margin-left: 225px;
 }
 
 
-.formulario{
-
-    height: 50px;
-    width: 70px;
-    margin: 200px;
-    padding: 45px;
-
+input {
+  height: 32px;
+  width: 385px;
+  left: 8px;
+  top: 60px;
+  border-radius: 5px;
+  padding: 8px;
 }
 
-
-.botonForm{
-
-    background-color: #BBC2FF;
-    border-radius: 5px;
-    border: none;
-    height: 55px;
-    width: 135px;
-    left: 8px;
-    top: 405px;
-    border-radius: 10px;
-    padding: 8px;
-    font-weight: bold;
-    cursor: pointer;
-
-    
-
-
+.botonForm {
+  background-color: rgba(245, 126, 51, 0.5);
+  border-radius: 5px;
+  border: none;
+  height: 55px;
+  width: 135px;
+  left: 8px;
+  top: 405px;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
 }
 
-.imgForm{
-
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 300px;
-    height: 650px;
-    left: 516px;
-    top: 171px;
-    
-    
-    
+.imgForm {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 300px;
+  height: 650px;
+  left: 516px;
+  top: 171px;
+  margin-left: 150px;
 }

@@ -10,6 +10,7 @@ height: 449px;
 margin: auto;
 margin-bottom: 45px;
 padding: 10px;
+margin-bottom: 75px;
 }
 
 
@@ -44,12 +45,24 @@ letter-spacing: 0em;
 text-align: left;
 }
 
+p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    
+
+}
+
 
 .boton{
 
-    background: #3748E7;
-    width: 105px;
-    height: 55px;
+    background:  #8860C1;
+    width: 190px;
+    height:  55px;
     color: #ffffff;
     font-weight: 800;
     margin-left: 350px;
@@ -57,8 +70,9 @@ text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
+    border: none;
     
 
 
